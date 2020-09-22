@@ -68,8 +68,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 ### Heroku
-npx create-react-app@3.x react-to-do
-cd react-to-do
-heroku create react-to-do --buildpack mars/create-react-app
-git push heroku master
-heroku open
+`npx create-react-app@3.x react-to-do`
+`cd react-to-do`
+`heroku create react-to-do --buildpack mars/create-react-app`
+`git push heroku master`
+`heroku open`
