@@ -1,4 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Deploy React.js web apps generated with create-react-app using the following commands.
+
+`npx create-react-app@3.x react-to-do`
+
+`cd react-to-do`
+
+`heroku create react-to-do --buildpack mars/create-react-app`
+
+`git push heroku master`
+
+`heroku open`
 
 ## Available Scripts
 
@@ -67,13 +77,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-### Heroku
-`npx create-react-app@3.x react-to-do`
 
-`cd react-to-do`
-
-`heroku create react-to-do --buildpack mars/create-react-app`
-
-`git push heroku master`
-
-`heroku open`
